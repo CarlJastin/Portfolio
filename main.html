@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equip="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/769ba7f360.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<nav> 
+			<img src="pictures/Picture4.png" class="logo">
+			<ul id="sidemenu">
+				<li> <a href="#header"> Home </a></li>
+				<li> <a href="#about"> About </a></li>
+				<li> <a href="#work"> Work </a></li>
+				<li> <a href="#contact"> Contact </a></li>
+
+				<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+	</ul>
+				<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<div class="header-text">
+	<p> Customer Support </p>
+	<h1> Hi, I'm <span>Carl Fainsan</span> <br> from Philippines</h1>
+
+</div>
+</div>
+ 
+<!-- About Section -->
+
+<div id="about">
+		
+	<div class="row">
+		<div class="about-col-1">
+			<img src="pictures/me.png"> 
+		</div>
+
+		<div class="about-col-2">
+			<h1 class="sub-title"> About Me</h1>
+			<br>
+			<p>
+Hello, My name is Carl Jastin Fainsan. Customer Service Representative/Support with 3 years of experience serving a variety of customers and clients through a different lines of business. Detailed-oriented professional who works well under pressure. Notable accomplishment in meeting deadlines and increasing customer service satisfaction. Excited for the opportunity to work with new clients/customers to provide an exemptional service for the overall company's revenue growth.
+			</p>
+
+			<div class="tab-titles">
+				<p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+				<p class="tab-links" onclick="opentab('experience')">Experience </p>
+				<p class="tab-links" onclick="opentab('education')"> Education </p>
+			</div>
+			<div class="tab-contents active-tab" id="skills">
+				<ul>
+					<li> Customer Service</li>
+					<li>Customer Support</li>
+					<li>Telesales</li>
+					<li> Admin Task</li>
+					<li> HTML</li>
+					<li> CSS</li>
+				</ul>
+		</div>
+			<div class="tab-contents" id="experience">
+				<ul>
+					<li> Worked as a Billing and Sales representative in AT&T<br>2019-2021</li>
+
+					<li> Customer Representative for Despensing medication and overried process in Optum<br>2021-2022</li>
+					<li> TeleSales and Customer Care at Viator/TripAdvisor<br>2022-2023</li>
+					
+				</ul>
+		</div>
+			<div class="tab-contents" id="education">
+				<ul>
+					<li> Graduated from Bachelor's Degree in Computer Science at<br>Erhard Systems Technological Institute<br><b> <br> S.Y 2015-2019</b></li>
+
+			
+					
+				</ul>
+		</div>
+	
+
+
+
+
+	</div>
+</div>
+</div>
+
+<!------- Work Section ------>
+
+<div id="work">
+	<div class="container">
+		<h1 class="sub-title"> <center>My Work Experience</center> </h1>
+		<div class="work-experience">
+				<div>
+					<i class="fa-solid fa-tower-cell"></i>
+					<h2>AT&T </h2>
+					<p>“Help customers resolve the issue on their accounts. Explains unrecognized charges, performs troubleshooting on their devices and cross-sell services and devices that the company offers.”</p>
+					<a href="#">Learn more</a>
+
+		</div>
+
+					<div class="box2">
+					<i class="fa-solid fa-prescription"></i>
+					<h2>Optum </h2>
+					<p>“Dispensed medication as per client's/customer's request. Processed override on their account and explains the rate of each medication that the customers are inquiring about in the company's pharmacy. .”</p>
+					<a href="#">Learn more</a>
+		</div>
+					<div class="box3">
+					<i class="fa-solid fa-suitcase-rolling"></i>
+					<h2>Viator/TripAdvisor </h2>
+					<p>“Book clients'/customers' tours and activities all over the globe. Discuss what are the different packages and rates in a specific place. Cross-sell tours that they may want to experience. .”</p>
+					<a href="#">Learn more</a>
+
+		</div>
+
+	</div>
+</div>
+</div>
+
+
+
+<!------- portfolio------>
+<div id="portfolio">
+	<div class="container">
+		<div class="website">
+			<div class="work">
+				<img src="pictures/att.jpg">
+				<div class="layer">
+					<h3> AT&T</h3>
+					<p> Think big. Innovate and get there first.<br>AT&T is where people come to invent<br> the future. That's been our legacy since <br> the very beginning.</p>
+					<a href="https://www.att.com/"><i class="fa-solid fa-up-right-from-square"></i> </a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="pictures/optum.jpg">
+				<div class="layer">
+					<h3> Optum</h3>
+					<p> We're creating a healthier world,<br> one insight, one connection,<br> one person at a time.</p>
+					<a href="https://www.optum.com/pharmacy-services.html"><i class="fa-solid fa-up-right-from-square"></i> </a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="pictures/viator.jpg">
+				<div class="layer">
+					<h3> Viator/TripAdvisor</h3>
+					<p> Explore, Experience and Share <br> Our World!</p>
+					<a href="https://www.viator.com/?m=28353&supag=144883557326&supsc=aud-470357328126:kwd-2960747206&supai=648684350130&supdv=c&supnt=g&suplp=9066827&supli=&supti=aud-470357328126:kwd-2960747206&tsem=true&supci=aud-470357328126:kwd-2960747206&supap1=&supap2=&gclid=CjwKCAiAmJGgBhAZEiwA1JZolgctiYtl00Z1lWhazu-jQp9sbrL4zaUx-XybdjUZjC6CFa8JWbwuDRoCXH0QAvD_BwE"><i class="fa-solid fa-up-right-from-square"></i> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!------- Contact ------>
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-envelope"></i>
+				jastinfainsan07@gmail.com</p>
+				<p> <i class="fa-solid fa-phone"></i>
+				+63 9289522389</p>
+				<p> <i class="fa-brands fa-linkedin"></i>
+					www.linkedin.com/in/carljastin-
+fainsan-42b41a243</p>
+				<a href="Resume/resume.pdf" download class="btn">Download CV</a>	
+		</div>
+
+		<div class="contact-right">
+			<form name="submit-to-google-sheet">
+
+				<input type="text" name="name" placeholder="Your Name" requried>
+				<input type="email" name="email"  placeholder="Your Email" required>
+				<textarea  name="message" rows="6" placeholder="Your Message"></textarea>
+				<button type="submit" class="btn2"><p>Submit</p></button>
+			</form>
+				<span id="msg">  </span>
+		</div>
+	</div>
+</div>
+				<div class="footer">
+					<p> My Sample Portfolio</p>
+				</div>
+</div>
+</div>			
+</div>
+
+	<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwqcNQhVA6lNFlteZzNK44gT9zYowKFsIYgNXBQp1E7_e98cw2LIxc7cG3gKXP94rRgPQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      	msg.innerHTML = "Message sent successfully!"
+      	setTimeout(function(){
+      		msg.innerHTML =""
+      	}, 4000)
+      	form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+
+
+
+<!------- Removing function on skill ------>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+	for(tablink of tablinks){
+		tablink.classList.remove("active-link");
+	}
+	for(tabcontent of tabcontents){
+		tabcontent.classList.remove("active-tab");
+
+	}
+	event.currentTarget.classList.add("active-link");
+	document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<!------- Side Menu ------>
+
+<script>
+	var sidemeu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemeu.style.right = "0";
+	}
+	function closemenu(){
+		sidemeu.style.right = "-200px";
+
+	}
+
+
+
+</script>
+
+</body>
+</html>
